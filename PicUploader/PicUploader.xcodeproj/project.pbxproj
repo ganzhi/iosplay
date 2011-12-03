@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEEC5F7C148A09490072A776 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7B148A09490072A776 /* UIKit.framework */; };
+		DEEC5F7E148A09490072A776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7D148A09490072A776 /* Foundation.framework */; };
+		DEEC5F80148A09490072A776 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7F148A09490072A776 /* CoreGraphics.framework */; };
+		DEEC5F86148A09490072A776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5F84148A09490072A776 /* InfoPlist.strings */; };
+		DEEC5F88148A09490072A776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5F87148A09490072A776 /* main.m */; };
+		DEEC5F8C148A09490072A776 /* PicUploaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5F8B148A09490072A776 /* PicUploaderAppDelegate.m */; };
+		DEEC5F8F148A09490072A776 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5F8D148A09490072A776 /* MainWindow.xib */; };
+		DEEC5F92148A09490072A776 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5F91148A09490072A776 /* FirstViewController.m */; };
+		DEEC5F95148A09490072A776 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5F94148A09490072A776 /* SecondViewController.m */; };
+		DEEC5F98148A09490072A776 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5F96148A09490072A776 /* FirstView.xib */; };
+		DEEC5F9B148A09490072A776 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5F99148A09490072A776 /* SecondView.xib */; };
+		DEEC5FA3148A09490072A776 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5FA2148A09490072A776 /* SenTestingKit.framework */; };
+		DEEC5FA4148A09490072A776 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7B148A09490072A776 /* UIKit.framework */; };
+		DEEC5FA5148A09490072A776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7D148A09490072A776 /* Foundation.framework */; };
+		DEEC5FA6148A09490072A776 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEC5F7F148A09490072A776 /* CoreGraphics.framework */; };
+		DEEC5FAE148A09490072A776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5FAC148A09490072A776 /* InfoPlist.strings */; };
+		DEEC5FB0148A09490072A776 /* PicUploaderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5FAF148A09490072A776 /* PicUploaderTests.h */; };
+		DEEC5FB2148A09490072A776 /* PicUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5FB1148A09490072A776 /* PicUploaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEEC5FA7148A09490072A776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEC5F6E148A09480072A776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEC5F76148A09480072A776;
+			remoteInfo = PicUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEEC5F77148A09480072A776 /* PicUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEC5F7B148A09490072A776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEEC5F7D148A09490072A776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEEC5F7F148A09490072A776 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEEC5F83148A09490072A776 /* PicUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicUploader-Info.plist"; sourceTree = "<group>"; };
+		DEEC5F85148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEEC5F87148A09490072A776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEEC5F89148A09490072A776 /* PicUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicUploader-Prefix.pch"; sourceTree = "<group>"; };
+		DEEC5F8A148A09490072A776 /* PicUploaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicUploaderAppDelegate.h; sourceTree = "<group>"; };
+		DEEC5F8B148A09490072A776 /* PicUploaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicUploaderAppDelegate.m; sourceTree = "<group>"; };
+		DEEC5F8E148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DEEC5F90148A09490072A776 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DEEC5F91148A09490072A776 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DEEC5F93148A09490072A776 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DEEC5F94148A09490072A776 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DEEC5F97148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		DEEC5F9A148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		DEEC5FA1148A09490072A776 /* PicUploaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicUploaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEC5FA2148A09490072A776 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DEEC5FAB148A09490072A776 /* PicUploaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicUploaderTests-Info.plist"; sourceTree = "<group>"; };
+		DEEC5FAD148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEEC5FAF148A09490072A776 /* PicUploaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicUploaderTests.h; sourceTree = "<group>"; };
+		DEEC5FB1148A09490072A776 /* PicUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicUploaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEC5F74148A09480072A776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5F7C148A09490072A776 /* UIKit.framework in Frameworks */,
+				DEEC5F7E148A09490072A776 /* Foundation.framework in Frameworks */,
+				DEEC5F80148A09490072A776 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEC5F9D148A09490072A776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5FA3148A09490072A776 /* SenTestingKit.framework in Frameworks */,
+				DEEC5FA4148A09490072A776 /* UIKit.framework in Frameworks */,
+				DEEC5FA5148A09490072A776 /* Foundation.framework in Frameworks */,
+				DEEC5FA6148A09490072A776 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEEC5F6C148A09480072A776 = {
+			isa = PBXGroup;
+			children = (
+				DEEC5F81148A09490072A776 /* PicUploader */,
+				DEEC5FA9148A09490072A776 /* PicUploaderTests */,
+				DEEC5F7A148A09480072A776 /* Frameworks */,
+				DEEC5F78148A09480072A776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEC5F78148A09480072A776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5F77148A09480072A776 /* PicUploader.app */,
+				DEEC5FA1148A09490072A776 /* PicUploaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEC5F7A148A09480072A776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5F7B148A09490072A776 /* UIKit.framework */,
+				DEEC5F7D148A09490072A776 /* Foundation.framework */,
+				DEEC5F7F148A09490072A776 /* CoreGraphics.framework */,
+				DEEC5FA2148A09490072A776 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEEC5F81148A09490072A776 /* PicUploader */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5F8A148A09490072A776 /* PicUploaderAppDelegate.h */,
+				DEEC5F8B148A09490072A776 /* PicUploaderAppDelegate.m */,
+				DEEC5F8D148A09490072A776 /* MainWindow.xib */,
+				DEEC5F90148A09490072A776 /* FirstViewController.h */,
+				DEEC5F91148A09490072A776 /* FirstViewController.m */,
+				DEEC5F93148A09490072A776 /* SecondViewController.h */,
+				DEEC5F94148A09490072A776 /* SecondViewController.m */,
+				DEEC5F96148A09490072A776 /* FirstView.xib */,
+				DEEC5F99148A09490072A776 /* SecondView.xib */,
+				DEEC5F82148A09490072A776 /* Supporting Files */,
+			);
+			path = PicUploader;
+			sourceTree = "<group>";
+		};
+		DEEC5F82148A09490072A776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5F83148A09490072A776 /* PicUploader-Info.plist */,
+				DEEC5F84148A09490072A776 /* InfoPlist.strings */,
+				DEEC5F87148A09490072A776 /* main.m */,
+				DEEC5F89148A09490072A776 /* PicUploader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEEC5FA9148A09490072A776 /* PicUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5FAF148A09490072A776 /* PicUploaderTests.h */,
+				DEEC5FB1148A09490072A776 /* PicUploaderTests.m */,
+				DEEC5FAA148A09490072A776 /* Supporting Files */,
+			);
+			path = PicUploaderTests;
+			sourceTree = "<group>";
+		};
+		DEEC5FAA148A09490072A776 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEC5FAB148A09490072A776 /* PicUploaderTests-Info.plist */,
+				DEEC5FAC148A09490072A776 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEC5F76148A09480072A776 /* PicUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEC5FB5148A09490072A776 /* Build configuration list for PBXNativeTarget "PicUploader" */;
+			buildPhases = (
+				DEEC5F73148A09480072A776 /* Sources */,
+				DEEC5F74148A09480072A776 /* Frameworks */,
+				DEEC5F75148A09480072A776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicUploader;
+			productName = PicUploader;
+			productReference = DEEC5F77148A09480072A776 /* PicUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEEC5FA0148A09490072A776 /* PicUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEC5FB8148A09490072A776 /* Build configuration list for PBXNativeTarget "PicUploaderTests" */;
+			buildPhases = (
+				DEEC5F9C148A09490072A776 /* Sources */,
+				DEEC5F9D148A09490072A776 /* Frameworks */,
+				DEEC5F9E148A09490072A776 /* Resources */,
+				DEEC5F9F148A09490072A776 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEC5FA8148A09490072A776 /* PBXTargetDependency */,
+			);
+			name = PicUploaderTests;
+			productName = PicUploaderTests;
+			productReference = DEEC5FA1148A09490072A776 /* PicUploaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEC5F6E148A09480072A776 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DEEC5F71148A09480072A776 /* Build configuration list for PBXProject "PicUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEEC5F6C148A09480072A776;
+			productRefGroup = DEEC5F78148A09480072A776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEC5F76148A09480072A776 /* PicUploader */,
+				DEEC5FA0148A09490072A776 /* PicUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEC5F75148A09480072A776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5F86148A09490072A776 /* InfoPlist.strings in Resources */,
+				DEEC5F8F148A09490072A776 /* MainWindow.xib in Resources */,
+				DEEC5F98148A09490072A776 /* FirstView.xib in Resources */,
+				DEEC5F9B148A09490072A776 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEC5F9E148A09490072A776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5FAE148A09490072A776 /* InfoPlist.strings in Resources */,
+				DEEC5FB0148A09490072A776 /* PicUploaderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DEEC5F9F148A09490072A776 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEC5F73148A09480072A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5F88148A09490072A776 /* main.m in Sources */,
+				DEEC5F8C148A09490072A776 /* PicUploaderAppDelegate.m in Sources */,
+				DEEC5F92148A09490072A776 /* FirstViewController.m in Sources */,
+				DEEC5F95148A09490072A776 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEC5F9C148A09490072A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEC5FB2148A09490072A776 /* PicUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEEC5FA8148A09490072A776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEC5F76148A09480072A776 /* PicUploader */;
+			targetProxy = DEEC5FA7148A09490072A776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEEC5F84148A09490072A776 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC5F85148A09490072A776 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEEC5F8D148A09490072A776 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC5F8E148A09490072A776 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DEEC5F96148A09490072A776 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC5F97148A09490072A776 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		DEEC5F99148A09490072A776 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC5F9A148A09490072A776 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		DEEC5FAC148A09490072A776 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEC5FAD148A09490072A776 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEC5FB3148A09490072A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEEC5FB4148A09490072A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEC5FB6148A09490072A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicUploader/PicUploader-Prefix.pch";
+				INFOPLIST_FILE = "PicUploader/PicUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEEC5FB7148A09490072A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicUploader/PicUploader-Prefix.pch";
+				INFOPLIST_FILE = "PicUploader/PicUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DEEC5FB9148A09490072A776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicUploader.app/PicUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicUploader/PicUploader-Prefix.pch";
+				INFOPLIST_FILE = "PicUploaderTests/PicUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DEEC5FBA148A09490072A776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicUploader.app/PicUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicUploader/PicUploader-Prefix.pch";
+				INFOPLIST_FILE = "PicUploaderTests/PicUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEC5F71148A09480072A776 /* Build configuration list for PBXProject "PicUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEC5FB3148A09490072A776 /* Debug */,
+				DEEC5FB4148A09490072A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEC5FB5148A09490072A776 /* Build configuration list for PBXNativeTarget "PicUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEC5FB6148A09490072A776 /* Debug */,
+				DEEC5FB7148A09490072A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEEC5FB8148A09490072A776 /* Build configuration list for PBXNativeTarget "PicUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEC5FB9148A09490072A776 /* Debug */,
+				DEEC5FBA148A09490072A776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEC5F6E148A09480072A776 /* Project object */;
+}
