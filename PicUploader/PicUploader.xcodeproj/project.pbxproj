@@ -25,6 +25,8 @@
 		DEEC5FAE148A09490072A776 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5FAC148A09490072A776 /* InfoPlist.strings */; };
 		DEEC5FB0148A09490072A776 /* PicUploaderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5FAF148A09490072A776 /* PicUploaderTests.h */; };
 		DEEC5FB2148A09490072A776 /* PicUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5FB1148A09490072A776 /* PicUploaderTests.m */; };
+		DEEC5FC0148A10050072A776 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC5FBE148A10050072A776 /* ThirdViewController.m */; };
+		DEEC5FC1148A10050072A776 /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEC5FBF148A10050072A776 /* ThirdView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,9 @@
 		DEEC5FAD148A09490072A776 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEEC5FAF148A09490072A776 /* PicUploaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicUploaderTests.h; sourceTree = "<group>"; };
 		DEEC5FB1148A09490072A776 /* PicUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicUploaderTests.m; sourceTree = "<group>"; };
+		DEEC5FBD148A10050072A776 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DEEC5FBE148A10050072A776 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DEEC5FBF148A10050072A776 /* ThirdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,9 @@
 				DEEC5F90148A09490072A776 /* FirstViewController.h */,
 				DEEC5F91148A09490072A776 /* FirstViewController.m */,
 				DEEC5F93148A09490072A776 /* SecondViewController.h */,
+				DEEC5FBD148A10050072A776 /* ThirdViewController.h */,
+				DEEC5FBE148A10050072A776 /* ThirdViewController.m */,
+				DEEC5FBF148A10050072A776 /* ThirdView.xib */,
 				DEEC5F94148A09490072A776 /* SecondViewController.m */,
 				DEEC5F96148A09490072A776 /* FirstView.xib */,
 				DEEC5F99148A09490072A776 /* SecondView.xib */,
@@ -236,6 +244,7 @@
 				DEEC5F8F148A09490072A776 /* MainWindow.xib in Resources */,
 				DEEC5F98148A09490072A776 /* FirstView.xib in Resources */,
 				DEEC5F9B148A09490072A776 /* SecondView.xib in Resources */,
+				DEEC5FC1148A10050072A776 /* ThirdView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +284,7 @@
 				DEEC5F8C148A09490072A776 /* PicUploaderAppDelegate.m in Sources */,
 				DEEC5F92148A09490072A776 /* FirstViewController.m in Sources */,
 				DEEC5F95148A09490072A776 /* SecondViewController.m in Sources */,
+				DEEC5FC0148A10050072A776 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
